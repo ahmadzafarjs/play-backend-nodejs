@@ -23,14 +23,13 @@ npm install
 Use code with caution.
 Configure database connection (replace <your_mongodb_uri> with your actual connection string)
 JavaScript
-// Replace with your MongoDB connection string
+#### Replace with your MongoDB connection string
 const MONGO_URI = "<your_mongodb_uri>";
-
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.error(err));
-Use code with caution.
+#### Use code with caution.
 Start the server (modify script name if needed)
-Bash
+### Bash
 nodemon server.js
 Use code with caution.
